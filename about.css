@@ -1,0 +1,126 @@
+.container {
+    width: 100%;
+    height: 1000px;
+    background-color: #E2EAF3;
+}
+
+.menu-bar {
+    width: 100%;
+    height: 15%;
+    background-color: #F8D8EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 20px;
+    color: #F15353;
+    float: right;
+    margin-top: 70px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.menu {
+
+    width: 80%;
+    height: auto;
+    display: block;
+    text-decoration: none;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+
+}
+
+.menu ul li {
+    float: left;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 55px;
+
+}
+
+.menu ul li a {
+    display: block;
+    justify-content: none;
+    margin-right: 50px;
+    padding: 3px;
+    color: black;
+    font-size: 20px;
+    font-weight: 25px;
+    float: left;
+    text-decoration: none;
+
+
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.content img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 90px;
+    object-fit: cover;
+
+}
+
+.content input {
+    font-size: 20px;
+    background-color: blue;
+    padding: 15px 15px;
+    color: #E2EAF3;
+    border-radius: 40px;
+    margin-top: 60px;
+    margin-left: 13%;
+}
+
+.menuabout h1 {
+    width: 50%;
+    height: 50%;
+    float: right;
+    /* background-color: yellowgreen; */
+    margin-top: -550px;
+    font-size: 3rem;
+}
+
+.menuabout p {
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: -450px
+}
+.icon ul{
+    list-style-type: none;
+    float:right;
+    margin-top: -250px;
+}
+
+.icon ul li a{
+    margin-right: 30rem;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+    margin-bottom: -50px;
+
+} 
+.icon ul li i{
+    font-size: 25px;
+    line-height: 3rem;
+}
