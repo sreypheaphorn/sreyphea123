@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: block;
+    margin: 0;
+}
 
 .container {
     width: 100%;
@@ -73,7 +77,6 @@
     float: left;
     text-decoration: none;
     /* transition: 0.3s ease; */
-    
  
 }
 .menu ul li a:hover{
@@ -133,3 +136,5 @@ main.content img {
     color: #E2EAF3;
     border-radius: 40px;
 }
+
+

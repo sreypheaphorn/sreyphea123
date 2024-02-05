@@ -1,3 +1,9 @@
+body{
+    display: block;
+    margin: 0;
+}
+
+
 .container {
     width: 100%;
     height: 1000px;
@@ -5,24 +11,29 @@
 }
 
 .menu-bar {
+
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 15%;
     background-color: #F8D8EB;
-    display: flex;
-    justify-content: space-between;
+    
+
 }
 
 .logo a {
+    /* width: 20%;
+    height: 100%; */
     font-size: 20px;
     color: #F15353;
     float: right;
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 55px;
+    margin-left: 20px;
     transition: 0.3s ease;
     text-decoration: none;
-}
 
-.logo a:hover {
+}
+.logo a:hover{
     transform: scale(1.1);
     border-bottom: 2px solid red;
     color: red;
@@ -61,11 +72,11 @@
     font-weight: 25px;
     float: left;
     text-decoration: none;
-
-
+    /* transition: 0.3s ease; */
+    
+ 
 }
-
-.menu ul li a:hover {
+.menu ul li a:hover{
     border-bottom: 2px solid red;
     color: red;
 }
